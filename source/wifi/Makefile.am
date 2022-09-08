@@ -32,4 +32,4 @@ libhal_wifi_la_LDFLAGS = -lev -lwpa_client
 #wifihal test binary
 bin_PROGRAMS = wifihal
 wifihal_CPPFLAGS = -I$(top_srcdir)/include $(CPPFLAGS) -D_WIFI_HAL_TEST_
-wifihal_SOURCES = wifi_hal.c client_wifi_hal.c
+wifihal_SOURCES = wifi_hal.c client_wifi_hal.c wifi_hal_hapd.c
